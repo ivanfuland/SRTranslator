@@ -2,13 +2,14 @@ import os
 import argparse
 import logging
 import traceback
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 from .srt_file import SrtFile
 from .ass_file import AssFile
 from .translators.deepl_api import DeeplApi
-from .translators.deepl_scrap import DeeplTranslator
-from .translators.translatepy import TranslatePy
-from .translators.pydeeplx import PyDeepLX
 
 parser = argparse.ArgumentParser(description="Translate an .STR and .ASS file")
 
@@ -73,9 +74,9 @@ parser.add_argument(
     "-t",
     "--translator",
     type=str,
-    choices=["deepl-scrap", "translatepy", "deepl-api", "pydeeplx"],
+    choices=["deepl-api"],
     help="Built-in translator to use",
-    default="deepl-scrap",
+    default="deepl-api",
 )
 
 parser.add_argument(
@@ -84,17 +85,9 @@ parser.add_argument(
     help="Api key if needed on translator",
 )
 
-parser.add_argument(
-    "--proxies",
-    action="store_true",
-    help="Use proxy by default for pydeeplx",
-)
 
 builtin_translators = {
-    "deepl-scrap": DeeplTranslator,
     "deepl-api": DeeplApi,
-    "translatepy": TranslatePy,
-    "pydeeplx": PyDeepLX,
 }
 
 args = parser.parse_args()
@@ -111,8 +104,11 @@ if not args.show_browser:
 translator_args = {}
 if args.auth:
     translator_args["api_key"] = args.auth
-if args.proxies:
-    translator_args["proxies"] = args.proxies    
+else:
+    # Try to get API key from environment variable if not provided via command line
+    api_key = os.getenv("DEEPL_API_KEY")
+    if api_key:
+        translator_args["api_key"] = api_key
 
 translator = builtin_translators[args.translator](**translator_args)
 

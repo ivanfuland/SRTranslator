@@ -1,28 +1,46 @@
-# DeepL translator
+# DeepL API Translator
 
 ## Usage
 
-Driver is optional, if not passed as argument the code will create a new firefox driver with geckodriver (and yes, it install it and put in path if needed) and setup free proxies to avoid getting banned
-
-```
+```python
+import os
+from dotenv import load_dotenv
 from srtranslator.translators.deepl_api import DeeplApi
 
-translator = DeeplApi(api_key='your_api_key') # As a recomendation, put in in a .env file and load it with python-dotenv
+# Load environment variables from .env file
+load_dotenv()
+
+# Get API key from environment variable
+api_key = os.getenv("DEEPL_API_KEY")
+if not api_key:
+    raise ValueError("DEEPL_API_KEY environment variable is not set")
+
+translator = DeeplApi(api_key)
 
 translator.translate(text, source_language, destination_language)
 
-translator.quit() # Totally optional
+translator.quit() # Optional
+```
+
+### Setting up your API key
+
+1. Sign up for a DeepL API account at https://www.deepl.com/pro-api
+2. Create a `.env` file in your project root (you can copy from `.env.example`):
+```
+DEEPL_API_KEY=your-api-key-here
 ```
 
 ### From CLI:
 
-```
-python -m srtranslator --t deepl-api --auth YOUR_API_KEY -i src_lang -o target_lang /path/to/srt
+You can either use the API key from your environment variables:
+
+```bash
+python -m srtranslator --translator deepl-api -i src_lang -o target_lang /path/to/srt
 ```
 
-or
+Or provide it directly via the command line:
 
-```
+```bash
 python -m srtranslator --translator deepl-api --auth YOUR_API_KEY -i src_lang -o target_lang /path/to/srt
 ```
 
