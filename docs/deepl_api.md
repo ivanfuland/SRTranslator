@@ -22,6 +22,23 @@ translator.translate(text, source_language, destination_language)
 translator.quit() # Optional
 ```
 
+## Glossary Support
+
+The translator now supports using a glossary for consistent translations of specific terms. The glossary is stored in a CSV file at `glossary/glossary.csv` with the following format:
+
+```
+source_term,target_term
+Transformer,Transformer
+Token,Token
+Activation Function,激活函数
+```
+
+Features:
+- The glossary is automatically created or updated when the CSV file is modified
+- The glossary is named "myllm_glossary" in the DeepL API
+- The translator will automatically use the glossary when translating
+- If there are any issues with the glossary, the translator will fall back to translation without the glossary
+
 ### Setting up your API key
 
 1. Sign up for a DeepL API account at https://www.deepl.com/pro-api

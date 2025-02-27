@@ -29,10 +29,13 @@ from srtranslator.translators.deepl_api import DeeplApi
 
 Initialize translator with your DeepL API key from environment variables:
 
-1. Create a `.env` file in your project root (you can copy from `.env.example`):
+1. Sign up for a DeepL API account at https://www.deepl.com/pro-api
+2. Create a `.env` file in your project root (you can copy from `.env.example`):
 ```
 DEEPL_API_KEY=your-api-key-here
 ```
+
+**Important**: You must use a valid DeepL API key. The application will verify the key on startup and will not work with an invalid or disabled API key.
 
 2. Load and use the API key in your code:
 ```python
@@ -49,6 +52,19 @@ if not api_key:
 
 translator = DeeplApi(api_key)
 ```
+
+### Glossary Support
+
+The translator supports using a glossary for consistent translations of specific terms. The glossary is stored in a CSV file at `glossary/glossary.csv` with the following format:
+
+```
+source_term,target_term
+Transformer,Transformer
+Token,Token
+Activation Function,激活函数
+```
+
+The glossary is automatically created or updated when the CSV file is modified, and will be used during translation.
 
 Load, translate and save. For multiple recursive files in folder, check `examples folder`
 

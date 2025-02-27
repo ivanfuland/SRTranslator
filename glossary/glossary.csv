@@ -1,0 +1,191 @@
+﻿Transformer,Transformer
+Token,Token
+Model,Model
+Network,Network
+PlayGround,PlayGround
+Play Ground,PlayGround
+LLM,LLM
+Embedding,Embedding
+Temperature,Temperature
+Top-p,Top-p
+FlashAttention,FlashAttention
+PEFT,PEFT
+SGD,SGD
+AdamW,AdamW
+LayerNorm,LayerNorm
+Dropout,Dropout
+Zero-Shot,Zero-Shot
+Few-Shot,Few-Shot
+MoE,MoE
+LoRA,LoRA
+RLHF,RLHF
+RNN,RNN
+CNN,CNN
+GNN,GNN
+MLP,MLP
+RL,RL
+RLHF,RLHF
+FFN,FFN
+KV Cache,KV Cache
+chocolate,chocolate
+Gemini-2.0-Flash-Thinking-Exp,Gemini-2.0-Flash-Thinking-Exp
+Gemini-2.0-Pro-Exp,Gemini-2.0-Pro-Exp
+ChatGPT-4o,ChatGPT-4o
+DeepSeek-R1,DeepSeek-R1
+Gemini-2.0-Flash,Gemini-2.0-Flash
+o1,o1
+o1-preview,o1-preview
+Qwen2.5-Max,Qwen2.5-Max
+o3-mini-high,o3-mini-high
+DeepSeek-V3,DeepSeek-V3
+Qwen-Plus,Qwen-Plus
+GLM-4-Plus,GLM-4-Plus
+Gemini-2.0-Flash-Lite-Preview,Gemini-2.0-Flash-Lite-Preview
+o3-mini,o3-mini
+Step-2-16K-Exp,Step-2-16K-Exp
+o1-mini,o1-mini
+Gemini-1.5-Pro,Gemini-1.5-Pro
+Grok-2,Grok-2
+Yi-Lightning,Yi-Lightning
+GPT-4o,GPT-4o
+Claude 3.5 Sonnet,Claude 3.5 Sonnet
+Qwen2.5-plus,Qwen2.5-plus
+Deepseek-v2.5,Deepseek-v2.5
+Athene-v2-Chat-72B,Athene-v2-Chat-72B
+GPT-4o-mini,GPT-4o-mini
+Llama-3.1-Nemotron-70B-Instruct,Llama-3.1-Nemotron-70B-Instruct
+Meta-Llama-3.1-405B-Instruct-bf16,Meta-Llama-3.1-405B-Instruct-bf16
+Meta-Llama-3.1-405B-Instruct-fp8,Meta-Llama-3.1-405B-Instruct-fp8
+Gemini Advanced App,Gemini Advanced App
+Grok-2-Mini,Grok-2-Mini
+Qwen-Max,Qwen-Max
+Qwen2.5-72B-Instruct,Qwen2.5-72B-Instruct
+GPT-4-Turbo,GPT-4-Turbo
+Llama-3.3-70B-Instruct,Llama-3.3-70B-Instruct
+Mistral-Large,Mistral-Large
+Athene-70B,Athene-70B
+GPT-4-preview,GPT-4-preview
+Llama-3.1-Tulu-3-70B,Llama-3.1-Tulu-3-70B
+Meta-Llama-3.1-70B-Instruct,Meta-Llama-3.1-70B-Instruct
+Claude 3 Opus,Claude 3 Opus
+Amazon Nova Pro 1.0,Amazon Nova Pro 1.0
+Reka-Core,Reka-Core
+Claude 3.5 Haiku,Claude 3.5 Haiku
+Jamba-1.5-Large,Jamba-1.5-Large
+Gemma-2-27B-it,Gemma-2-27B-it
+Qwen2.5-Coder-32B-Instruct,Qwen2.5-Coder-32B-Instruct
+Amazon Nova Lite 1.0,Amazon Nova Lite 1.0
+Gemma-2-9B-it-SimPO,Gemma-2-9B-it-SimPO
+Command R+,Command R+
+Llama-3.1-Nemotron-51B-Instruct,Llama-3.1-Nemotron-51B-Instruct
+Mistral-Small-24B-Instruct,Mistral-Small-24B-Instruct
+Aya-Expanse-32B,Aya-Expanse-32B
+Nemotron-4-340B-Instruct,Nemotron-4-340B-Instruct
+GLM-4,GLM-4
+Llama-3-70B-Instruct,Llama-3-70B-Instruct
+Reka-Flash,Reka-Flash
+Phi-4,Phi-4
+Claude 3 Sonnet,Claude 3 Sonnet
+Amazon Nova Micro 1.0,Amazon Nova Micro 1.0
+Hunyuan-Standard-256K,Hunyuan-Standard-256K
+Gemma-2-9B-it,Gemma-2-9B-it
+Llama-3.1-Tulu-3-8B,Llama-3.1-Tulu-3-8B
+Qwen2-72B-Instruct,Qwen2-72B-Instruct
+GPT-4,GPT-4
+Ministral-8B,Ministral-8B
+Aya-Expanse-8B,Aya-Expanse-8B
+Claude 3 Haiku,Claude 3 Haiku
+DeepSeek-Coder-V2-Instruct,DeepSeek-Coder-V2-Instruct
+Jamba-1.5-Mini,Jamba-1.5-Mini
+Meta-Llama-3.1-8B-Instruct,Meta-Llama-3.1-8B-Instruct
+Qwen1.5-110B-Chat,Qwen1.5-110B-Chat
+Yi-1.5-34B-Chat,Yi-1.5-34B-Chat
+QwQ-32B-Preview,QwQ-32B-Preview
+Reka-Flash-21B-online,Reka-Flash-21B-online
+Llama-3-8B-Instruct,Llama-3-8B-Instruct
+InternLM2.5-20B-chat,InternLM2.5-20B-chat
+Granite-3.1-8B-Instruct,Granite-3.1-8B-Instruct
+Command R,Command R
+Mistral Medium,Mistral Medium
+Mixtral-8x22b-Instruct-v0.1,Mixtral-8x22b-Instruct-v0.1
+Qwen1.5-72B-Chat,Qwen1.5-72B-Chat
+Gemma-2-2b-it,Gemma-2-2b-it
+Gemini-1.0-Pro,Gemini-1.0-Pro
+Zephyr-ORPO-141b-A35b-v0.1,Zephyr-ORPO-141b-A35b-v0.1
+Qwen1.5-32B-Chat,Qwen1.5-32B-Chat
+Granite-3.1-2B-Instruct,Granite-3.1-2B-Instruct
+Phi-3-Medium-4k-Instruct,Phi-3-Medium-4k-Instruct
+Starling-LM-7B-beta,Starling-LM-7B-beta
+xAI,xAI
+Google,Google
+OpenAI,OpenAI
+Open AI,OpenAI
+DeepSeek,DeepSeek
+Deep Seek,DeepSeek
+Alibaba,Alibaba
+Zhipu,Zhipu
+Zhi pu,Zhipu
+StepFun,StepFun
+Step Fun,StepFun
+01 AI,01 AI
+Anthropic,Anthropic
+NexusFlow,NexusFlow
+Nvidia,Nvidia
+Meta,Meta
+Ai2,Ai2
+Reka AI,Reka AI
+AI21 Labs,AI21 Labs
+Princeton,Princeton
+Cohere,Cohere
+Microsoft,Microsoft
+Tencent,Tencent
+InternLM,InternLM
+IBM,IBM
+HuggingFace,HuggingFace
+Hugging Face,HuggingFace
+Nexusflow,Nexusflow
+Activation Function,激活函数
+Batch Normalization,批量归一化
+Gradient Descent,梯度下降
+Recurrent Neural Network,循环神经网络
+Convolutional Neural Network,卷积神经网络
+Generative Adversarial Network,生成对抗网络
+Learning Rate,学习率
+Loss Function,损失函数
+Attention Mechanism,注意力机制
+Autoencoder,自编码器
+Backpropagation,反向传播
+Epoch,训练轮次
+Fine-tuning,微调
+Pre-training,预训练
+Tokenization,分词
+Vocabulary,词汇表
+Hyperparameter,超参数
+Overfitting,过拟合
+Underfitting,欠拟合
+Transfer Learning,迁移学习
+Multilayer Perceptron,多层感知机
+Reinforcement Learning,强化学习
+Deep Reinforcement Learning,深度强化学习
+Context Window,上下文窗口
+Self-Attention,自注意力机制
+Feedforward Neural Network,前馈神经网络
+Fully Connected Layer,全连接层
+Model Generalization,模型泛化能力
+Data Augmentation,数据增强
+Exploding Gradient,梯度爆炸
+Vanishing Gradient,梯度消失
+Capsule Network,胶囊网络
+Siamese Neural Network,孪生神经网络
+Max-Pooling,最大池化
+Average-Pooling,平均池化
+Prompt Engineering,提示工程
+Quantization,量化
+Positional Encoding,位置编码
+Beam Search,束搜索
+Hallucination,幻觉
+Multimodal,多模态
+Diffusion Model,扩散模型
+Gradient Checkpointing,梯度检查点
+Instruction Tuning,指令微调
+Sparse Attention,稀疏注意力
